@@ -11,10 +11,4 @@ From a Visual Studio Developer Command Prompt, compile the program with:
 cl main.c user32.lib
 ```
 
-Alternatively, using MinGW's gcc:
-
-```bash
-gcc main.c -luser32 -o main.exe
-```
-
 Run `main.exe` to see the message box.
